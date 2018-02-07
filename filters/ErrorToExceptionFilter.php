@@ -37,6 +37,6 @@ class ErrorToExceptionFilter extends \yii\base\Behavior
                     $response->getParameter('error_uri'));
             }
         }
-        return $message;
+        return $isValid;
     }
 }
